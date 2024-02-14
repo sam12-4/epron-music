@@ -1,0 +1,26 @@
+{
+    "open sans": {
+        "normal": "\/home\/devtestlink\/public_html\/sketch-journal\/wp-content\/uploads\/wpo_wcpdf_ab76f682596f4ccaaaf6f466c5ae4075\/fonts\/OpenSans-Normal",
+        "bold": "\/home\/devtestlink\/public_html\/sketch-journal\/wp-content\/uploads\/wpo_wcpdf_ab76f682596f4ccaaaf6f466c5ae4075\/fonts\/OpenSans-Bold",
+        "italic": "\/home\/devtestlink\/public_html\/sketch-journal\/wp-content\/uploads\/wpo_wcpdf_ab76f682596f4ccaaaf6f466c5ae4075\/fonts\/OpenSans-Italic",
+        "bold_italic": "\/home\/devtestlink\/public_html\/sketch-journal\/wp-content\/uploads\/wpo_wcpdf_ab76f682596f4ccaaaf6f466c5ae4075\/fonts\/OpenSans-BoldItalic"
+    },
+    "segoe": {
+        "normal": "\/home\/devtestlink\/public_html\/sketch-journal\/wp-content\/uploads\/wpo_wcpdf_ab76f682596f4ccaaaf6f466c5ae4075\/fonts\/Segoe-Normal",
+        "bold": "\/home\/devtestlink\/public_html\/sketch-journal\/wp-content\/uploads\/wpo_wcpdf_ab76f682596f4ccaaaf6f466c5ae4075\/fonts\/Segoe-Bold",
+        "italic": "\/home\/devtestlink\/public_html\/sketch-journal\/wp-content\/uploads\/wpo_wcpdf_ab76f682596f4ccaaaf6f466c5ae4075\/fonts\/Segoe-Italic",
+        "bold_italic": "\/home\/devtestlink\/public_html\/sketch-journal\/wp-content\/uploads\/wpo_wcpdf_ab76f682596f4ccaaaf6f466c5ae4075\/fonts\/Segoe-BoldItalic"
+    },
+    "roboto slab": {
+        "normal": "\/home\/devtestlink\/public_html\/sketch-journal\/wp-content\/uploads\/wpo_wcpdf_ab76f682596f4ccaaaf6f466c5ae4075\/fonts\/RobotoSlab-Normal",
+        "bold": "\/home\/devtestlink\/public_html\/sketch-journal\/wp-content\/uploads\/wpo_wcpdf_ab76f682596f4ccaaaf6f466c5ae4075\/fonts\/RobotoSlab-Bold",
+        "italic": "\/home\/devtestlink\/public_html\/sketch-journal\/wp-content\/uploads\/wpo_wcpdf_ab76f682596f4ccaaaf6f466c5ae4075\/fonts\/RobotoSlab-Italic",
+        "bold_italic": "\/home\/devtestlink\/public_html\/sketch-journal\/wp-content\/uploads\/wpo_wcpdf_ab76f682596f4ccaaaf6f466c5ae4075\/fonts\/RobotoSlab-BoldItalic"
+    },
+    "currencies": {
+        "normal": "\/home\/devtestlink\/public_html\/sketch-journal\/wp-content\/uploads\/wpo_wcpdf_ab76f682596f4ccaaaf6f466c5ae4075\/fonts\/currencies",
+        "bold": "\/home\/devtestlink\/public_html\/sketch-journal\/wp-content\/uploads\/wpo_wcpdf_ab76f682596f4ccaaaf6f466c5ae4075\/fonts\/currencies",
+        "italic": "\/home\/devtestlink\/public_html\/sketch-journal\/wp-content\/uploads\/wpo_wcpdf_ab76f682596f4ccaaaf6f466c5ae4075\/fonts\/currencies",
+        "bold_italic": "\/home\/devtestlink\/public_html\/sketch-journal\/wp-content\/uploads\/wpo_wcpdf_ab76f682596f4ccaaaf6f466c5ae4075\/fonts\/currencies"
+    }
+}

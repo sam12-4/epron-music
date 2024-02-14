@@ -1,0 +1,12 @@
+{
+  "name": "wordpress/woocommerce-easyorder",
+  "description": "EASYORDER plugin for woocommerce",
+  "autoload": {
+    "classmap": [
+      "includes"
+    ]
+  },
+  "require": {
+    "doctrine/inflector": "1.1"
+  }
+}

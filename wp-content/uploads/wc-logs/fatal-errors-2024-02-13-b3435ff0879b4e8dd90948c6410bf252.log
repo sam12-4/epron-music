@@ -1,0 +1,15 @@
+2024-02-13T09:12:29+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #1 must be of type array, bool given in D:\xaamp\htdocs\playlist\wp-content\plugins\ajax-login-and-registration-modal-popup-pro\includes\wc-api-manager\am\classes\class-wcro-api-manager-update-api-check.php:185
+Stack trace:
+#0 D:\xaamp\htdocs\playlist\wp-content\plugins\ajax-login-and-registration-modal-popup-pro\includes\wc-api-manager\am\classes\class-wcro-api-manager-update-api-check.php(185): array_merge(false, Array)
+#1 D:\xaamp\htdocs\playlist\wp-includes\class-wp-hook.php(326): LRM_API_Manager_Update_API_Check->update_check(Object(stdClass))
+#2 D:\xaamp\htdocs\playlist\wp-includes\plugin.php(205): WP_Hook->apply_filters(Object(stdClass), Array)
+#3 D:\xaamp\htdocs\playlist\wp-includes\option.php(2360): apply_filters('pre_set_site_tr...', Object(stdClass), 'update_plugins')
+#4 D:\xaamp\htdocs\playlist\wp-includes\update.php(567): set_site_transient('update_plugins', Object(stdClass))
+#5 D:\xaamp\htdocs\playlist\wp-includes\class-wp-hook.php(324): wp_update_plugins('')
+#6 D:\xaamp\htdocs\playlist\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 D:\xaamp\htdocs\playlist\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\xaamp\htdocs\playlist\wp-admin\admin.php(385): do_action('load-plugins.ph...')
+#9 D:\xaamp\htdocs\playlist\wp-admin\plugins.php(10): require_once('D:\\xaamp\\htdocs...')
+#10 {main}
+  thrown in D:\xaamp\htdocs\playlist\wp-content\plugins\ajax-login-and-registration-modal-popup-pro\includes\wc-api-manager\am\classes\class-wcro-api-manager-update-api-check.php on line 185
+

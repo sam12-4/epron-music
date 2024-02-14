@@ -1,0 +1,519 @@
+# Copyright (C) 2021 redq
+# This file is distributed under the same license as the EasyOrder - B2B Plugin for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: EasyOrder - B2B Plugin for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/easy-order\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-08-05T14:26:59+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: easyorder\n"
+
+#. Plugin Name of the plugin
+msgid "EasyOrder - B2B Plugin for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://redqteam.com/b2b"
+msgstr ""
+
+#. Description of the plugin
+msgid "EasyOrder - B2B is a Dokan extension. It allows the admin or vendor to create a custom price tier based on quantity."
+msgstr ""
+
+#. Author of the plugin
+msgid "redq"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themeforest.net/user/redqteam"
+msgstr ""
+
+#: easy-order.php:138
+msgid "Please Install WooCommerce first before activating this Plugin. You can download WooCommerce from <a href=\"https://wordpress.org/plugins/woocommerce/\">here</a>."
+msgstr ""
+
+#: includes/class-easyorder-admin.php:68
+msgid "Quote"
+msgstr ""
+
+#: includes/class-easyorder-admin.php:69
+#: templates/dokan/message.php:33
+#: templates/myaccount/message.php:10
+msgid "Status"
+msgstr ""
+
+#: includes/class-easyorder-admin.php:70
+#: templates/dokan/message.php:34
+#: templates/dokan/view-message.php:63
+#: templates/myaccount/view-message.php:56
+#: templates/myaccount/view-message.php:102
+msgid "Product"
+msgstr ""
+
+#: includes/class-easyorder-admin.php:71
+#: templates/dokan/message.php:35
+#: templates/easyorder/request-quote.php:42
+#: templates/emails/request-quote-item-details.php:83
+msgid "Email"
+msgstr ""
+
+#: includes/class-easyorder-admin.php:72
+#: templates/dokan/message.php:36
+#: templates/myaccount/message.php:9
+msgid "Date"
+msgstr ""
+
+#: includes/class-easyorder-admin.php:88
+#: templates/dokan/message.php:81
+msgid "by"
+msgstr ""
+
+#: includes/class-easyorder-admin.php:206
+#: includes/functions.php:311
+msgid "Congratulations! Your quote request has been accepted"
+msgstr ""
+
+#: includes/class-easyorder-admin.php:239
+#: includes/functions.php:344
+msgid "Your quote request status has been updated"
+msgstr ""
+
+#: includes/class-easyorder-admin.php:298
+#: includes/functions.php:403
+msgid "New reply for your quote request"
+msgstr ""
+
+#: includes/class-easyorder-ajax.php:114
+msgid "Your quote request has been placed"
+msgstr ""
+
+#: includes/class-easyorder-ajax.php:126
+msgid "You have a new quote request"
+msgstr ""
+
+#: includes/class-easyorder-ajax.php:132
+msgid "Thanks! Your email has been sent."
+msgstr ""
+
+#: includes/class-easyorder-message.php:44
+#: includes/dokan-dashboard.php:13
+#: templates/easyorder/request-quote.php:50
+msgid "Message"
+msgstr ""
+
+#: includes/class-easyorder-message.php:45
+msgid "Logout"
+msgstr ""
+
+#: includes/class-easyorder-metabox.php:22
+msgid "Quote Actions"
+msgstr ""
+
+#: includes/class-easyorder-metabox.php:31
+msgid "Request For A Quote Message"
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:26
+msgctxt "post type general name"
+msgid "Message"
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:27
+msgctxt "post type singular name"
+msgid "Message"
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:28
+msgctxt "admin menu"
+msgid "Message"
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:29
+msgctxt "add new on admin bar"
+msgid "Message"
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:30
+msgctxt "easyorder_message"
+msgid "Add New"
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:31
+msgid "Add New Message"
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:32
+msgid "New Message"
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:33
+msgid "Edit Message"
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:34
+msgid "View Message"
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:35
+msgid "All Messages"
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:36
+msgid "Search Message"
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:37
+msgid "Parent Message:"
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:38
+msgid "No Message found."
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:39
+msgid "No Message found in Trash."
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:44
+msgid "Description."
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:80
+msgctxt "Message status"
+msgid "Pending"
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:86
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-easyorder-post-types.php:89
+msgctxt "Message status"
+msgid "Processing"
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:95
+msgid "Processing <span class=\"count\">(%s)</span>"
+msgid_plural "Processing <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-easyorder-post-types.php:98
+msgctxt "Message status"
+msgid "On Hold"
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:104
+msgid "On Hold <span class=\"count\">(%s)</span>"
+msgid_plural "On Hold <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-easyorder-post-types.php:107
+msgctxt "Message status"
+msgid "Accepted"
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:113
+msgid "Accepted <span class=\"count\">(%s)</span>"
+msgid_plural "Accepted <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-easyorder-post-types.php:116
+msgctxt "Message status"
+msgid "Completed"
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:122
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-easyorder-post-types.php:125
+msgctxt "Message status"
+msgid "Cancelled"
+msgstr ""
+
+#: includes/class-easyorder-post-types.php:131
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/functions.php:221
+#: includes/metabox-functions.php:118
+#: templates/dokan/view-message.php:91
+msgctxt "Quote status"
+msgid "Pending"
+msgstr ""
+
+#: includes/functions.php:222
+#: includes/metabox-functions.php:119
+#: templates/dokan/view-message.php:92
+msgctxt "Quote status"
+msgid "Processing"
+msgstr ""
+
+#: includes/functions.php:223
+#: includes/metabox-functions.php:120
+#: templates/dokan/view-message.php:93
+msgctxt "Quote status"
+msgid "On Hold"
+msgstr ""
+
+#: includes/functions.php:224
+#: includes/metabox-functions.php:121
+#: templates/dokan/view-message.php:94
+msgctxt "Quote status"
+msgid "Accepted"
+msgstr ""
+
+#: includes/functions.php:225
+#: includes/metabox-functions.php:122
+#: templates/dokan/view-message.php:95
+msgctxt "Quote status"
+msgid "Completed"
+msgstr ""
+
+#: includes/functions.php:226
+#: includes/metabox-functions.php:123
+#: templates/dokan/view-message.php:96
+msgctxt "Quote status"
+msgid "Cancelled"
+msgstr ""
+
+#: includes/functions.php:463
+msgid "New reply from customer quote request"
+msgstr ""
+
+#: includes/metabox-functions.php:97
+#: templates/dokan/view-message.php:179
+#: templates/easyorder/request-quote.php:51
+#: templates/myaccount/view-message.php:179
+msgid "Your message"
+msgstr ""
+
+#: includes/metabox-functions.php:113
+#: templates/dokan/view-message.php:86
+msgid "Quote Status"
+msgstr ""
+
+#: includes/metabox-functions.php:137
+#: templates/dokan/view-message.php:64
+#: templates/dokan/view-message.php:109
+#: templates/myaccount/message.php:11
+#: templates/myaccount/view-message.php:57
+#: templates/myaccount/view-message.php:103
+msgid "Price"
+msgstr ""
+
+#: includes/metabox-functions.php:148
+#: templates/dokan/view-message.php:119
+msgid "Min Quantity"
+msgstr ""
+
+#: includes/metabox-functions.php:155
+msgid "Delete Permanently"
+msgstr ""
+
+#: includes/metabox-functions.php:157
+msgid "Move to Trash"
+msgstr ""
+
+#: includes/metabox-functions.php:166
+#: templates/dokan/view-message.php:124
+msgid "Update Quote"
+msgstr ""
+
+#: includes/metabox-functions.php:166
+#: templates/dokan/view-message.php:124
+msgid "Update the %s"
+msgstr ""
+
+#: includes/views/inputGroup.php:4
+#: includes/views/qtyBasedPrice.php:14
+#: includes/views/qtyBasedPrice.php:27
+msgid "Min. Quantity"
+msgstr ""
+
+#: includes/views/inputGroup.php:9
+#: includes/views/qtyBasedPrice.php:19
+#: includes/views/qtyBasedPrice.php:32
+msgid "Final Price"
+msgstr ""
+
+#: includes/views/qtyBasedPrice.php:6
+msgid "Price Tiers"
+msgstr ""
+
+#: includes/views/qtyBasedPrice.php:51
+msgid "Add Tier"
+msgstr ""
+
+#: includes/views/qtyBasedPriceRule.php:7
+msgid "Product Quantity"
+msgstr ""
+
+#: includes/views/qtyBasedPriceRule.php:8
+msgid "Price per Unit"
+msgstr ""
+
+#: templates/dokan/message.php:32
+#: templates/myaccount/message.php:8
+msgid "Order"
+msgstr ""
+
+#: templates/dokan/message.php:81
+#: templates/myaccount/message.php:46
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: templates/dokan/view-message.php:31
+#: templates/myaccount/view-message.php:26
+msgid "Invalid quote."
+msgstr ""
+
+#: templates/dokan/view-message.php:31
+#: templates/myaccount/view-message.php:26
+msgid "My Account"
+msgstr ""
+
+#: templates/dokan/view-message.php:45
+#: templates/myaccount/view-message.php:39
+msgid "Quote #%1$s request was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: templates/dokan/view-message.php:58
+#: templates/myaccount/view-message.php:48
+msgid "Quote Details"
+msgstr ""
+
+#: templates/dokan/view-message.php:192
+#: templates/myaccount/view-message.php:192
+msgid "Sorry! Quote does not found."
+msgstr ""
+
+#: templates/easyorder/request-quote.php:22
+#: templates/easyorder/request-quote.php:25
+msgid "Request for a quote?"
+msgstr ""
+
+#: templates/easyorder/request-quote.php:31
+msgid "Sending...."
+msgstr ""
+
+#: templates/easyorder/request-quote.php:34
+#: templates/easyorder/request-quote.php:35
+#: templates/emails/request-quote-item-details.php:69
+msgid "First Name"
+msgstr ""
+
+#: templates/easyorder/request-quote.php:38
+#: templates/easyorder/request-quote.php:39
+#: templates/emails/request-quote-item-details.php:76
+msgid "Last Name"
+msgstr ""
+
+#: templates/easyorder/request-quote.php:43
+msgid "Your Email"
+msgstr ""
+
+#: templates/easyorder/request-quote.php:46
+#: templates/easyorder/request-quote.php:47
+msgid "Phone"
+msgstr ""
+
+#: templates/easyorder/request-quote.php:58
+msgid "I accept the terms &amp; conditions"
+msgstr ""
+
+#: templates/easyorder/request-quote.php:66
+msgid "Send Message"
+msgstr ""
+
+#: templates/emails/customer-place-quote-request.php:28
+msgid "Hello %1$s, Your quote request for <a href=\"%2$s\">%3$s</a> has beed placed. Your request is currently on <strong>Pending</strong>."
+msgstr ""
+
+#: templates/emails/customer-place-quote-request.php:38
+#: templates/emails/customer-reply-message.php:32
+#: templates/emails/owner-notify-place-quote-request.php:38
+#: templates/emails/owner-reply-message.php:32
+#: templates/emails/quote-status-update-notify-customer.php:36
+msgid "View Quote"
+msgstr ""
+
+#: templates/emails/customer-reply-message.php:25
+msgid "Hello, a message has just been added from your customer:"
+msgstr ""
+
+#: templates/emails/email-footer.php:20
+msgid "EASYORDER Quote Request - Powered by RedQ Team"
+msgstr ""
+
+#: templates/emails/owner-notify-place-quote-request.php:28
+msgid "Hello, Your have a new quote request for <a href=\"%1$s\">%2$s</a>. The request is currently on <strong>Pending</strong>."
+msgstr ""
+
+#: templates/emails/owner-reply-message.php:25
+msgid "Hello, a message has just been added from the product owner:"
+msgstr ""
+
+#: templates/emails/quote-accepted-notify-customer.php:25
+msgid "Hello, your quote request has been accepted.You can now book as the listed price."
+msgstr ""
+
+#: templates/emails/quote-accepted-notify-customer.php:27
+msgid "You can now click the book now button in the view quote page. Then checkout the product."
+msgstr ""
+
+#: templates/emails/quote-accepted-notify-customer.php:32
+msgid "View Quote & Book Now"
+msgstr ""
+
+#: templates/emails/quote-status-update-notify-customer.php:27
+msgid "Hello %1$s, the status of your quote request has been updated. Current status of your quote request is <strong>%2$s</strong>."
+msgstr ""
+
+#: templates/emails/request-quote-item-details.php:19
+msgid "Quote #%s Details"
+msgstr ""
+
+#: templates/emails/request-quote-item-details.php:45
+msgid "Customer Details"
+msgstr ""
+
+#: templates/emails/request-quote-item-details.php:90
+msgid "Phone "
+msgstr ""
+
+#: templates/myaccount/message.php:59
+msgid "for "
+msgstr ""
+
+#: templates/myaccount/message.php:61
+msgid "items"
+msgstr ""
+
+#: templates/myaccount/view-message.php:58
+msgid "Quantity"
+msgstr ""
+
+#: templates/myaccount/view-message.php:59
+msgid "Action"
+msgstr ""
+
+#: templates/myaccount/view-message.php:89
+msgid "Buy Now"
+msgstr ""

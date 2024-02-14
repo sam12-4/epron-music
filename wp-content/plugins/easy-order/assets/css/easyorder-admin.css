@@ -1,0 +1,392 @@
+/* price tier input field */
+.wc-easyorder-tier-pricing {
+  display: grid;
+  max-width: 636px;
+  margin-top: 15px;
+  grid-template-columns: 160px 1fr;
+}
+
+.wc-easyorder-tier-pricing .wc-easyorder-tier-price-title {
+  margin: 8px 0 0 15px;
+  float: none;
+  width: auto;
+}
+
+.wc-easyorder-tier-body {
+  gap: 15px;
+  display: grid;
+}
+
+.wc-easyorder-price-tier {
+  gap: 15px;
+  display: grid;
+  position: relative;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.wc-easyorder-price-tier-input {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.wc-easyorder-input-group-addon {
+  color: #555;
+  text-align: center;
+  background-color: #eee;
+  border: 1px solid #EDEDED;
+  display: inline-flex;
+  min-height: 36px;
+  align-items: center;
+  border-radius: 4px 0 0 4px;
+  min-width: 38px;
+  justify-content: center;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+}
+
+.wc-easyorder-price-tier-input input {
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+  min-height: 40px;
+  width: 100% !important;
+  float: none !important;
+  padding: 0 15px 0 55px;
+  transition: border-color .2s ease;
+}
+.wc-easyorder-price-tier-input input:focus {
+  border-color: #212121;
+  box-shadow: none;
+}
+
+.wc-easyorder-remove-price-tier-group {
+  transition: all 0.3s ease 0s;
+  position: absolute;
+  right: -30px;
+  top: calc(50% - 1px);
+  transform: translateY(-50%);
+  display: inline-flex;
+}
+
+.wc-easyorder-remove-price-tier-group path {
+  transition: all 0.3s ease 0s;
+}
+
+.wc-easyorder-remove-price-tier-group:hover path {
+  fill: #b32d2e;
+}
+
+.wc-easyorder-remove-price-tier-group:hover,
+.wc-easyorder-remove-price-tier-group:focus {
+  box-shadow: none;
+  color: #b32d2e;
+  outline: 0;
+}
+
+.wc-easyorder-add-price-tier {
+  grid-column: 1/3;
+  margin-top: 15px;
+}
+
+.wc-easyorder-add-price-tier button {
+  margin-left: 160px;
+  border: 1px solid #eee;
+  background-color: transparent;
+  cursor: pointer;
+  min-height: 40px;
+  padding: 0 30px;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: all 0.3s ease 0s;
+}
+
+.wc-easyorder-add-price-tier button:hover {
+  background-color: #212121;
+  border-color: #212121;
+  color: #fff;
+}
+
+/* easyorder messaging  */
+#easyorder_quote_action,
+#easyorder_quote_message {
+  border-color: #E6E6E6;
+  border-radius: 9px;
+}
+#easyorder_quote_message .inside {
+  padding: 0;
+  margin: 0;
+}
+#easyorder_quote_message .postbox-header {
+  display: none;
+  padding: 10px 18px;
+  border-bottom-color: #E6E6E6;
+}
+#easyorder_quote_message .postbox-header h2 {
+  font-size: 22px;
+}
+.wc-easyorder-messaging-header {
+  background-color: #F1F1F1;
+  border-radius: 9px 9px 0 0;
+  border-bottom: 1px solid #E6E6E6;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+}
+.wc-easyorder-messaging-header figure {
+  margin: 0 20px 0 0;
+  display: flex;
+}
+.wc-easyorder-messaging-header figure img {
+  border-radius: 50%;
+  max-width: 42px;
+}
+.wc-easyorder-customer-name {
+  font-weight: 400;
+  margin: 0;
+}
+.wc-easyorder-message-input-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto min-content;
+  /* enable following grid column when quote message supports attachment and image upload  */
+  /* grid-template-columns: min-content min-content auto min-content; */
+  border-top: 1px solid #ececec;
+  padding: 15px 18px 15px 30px;
+}
+.wc-easyorder-message-image,
+.wc-easyorder-message-attachment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+.wc-easyorder-file-upload input[type="file"] {
+  position: absolute;
+  width: 20px;
+  height: 24px;
+  overflow: hidden;
+  top: -3px;
+  opacity: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.wc-easyorder-message-image svg,
+.wc-easyorder-message-attachment svg {
+  display: flex;
+  height: auto;
+  width: 20px;
+}
+.wc-easyorder-message-attachment {
+  margin-right: 21px;
+}
+.wc-easyorder-message-input {
+  display: flex;
+}
+.wc-easyorder-message-input textarea {
+  background-color: #F7F7F7;
+  border: 0;
+  border-radius: 5px;
+  box-sizing: content-box;
+  resize: none;
+  padding: 10px 15px;
+  height: 18px;
+}
+.wc-easyorder-message-input textarea:focus {
+  box-shadow: 0 0 0 1px #E6E6E6;
+}
+
+.wc-easyorder-message-submit {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  display: inline-flex;
+  margin-left: 15px;
+  padding: 0;
+  width: 45px;
+  height: 38px;
+  align-items: center;
+  justify-content: center;
+}
+.wc-easyorder-message-submit:focus-visible {
+  outline-color: #212121;
+}
+
+/* quote messaging */
+.wc-easyorder-quote-message-list {
+  display: grid;
+  max-height: 350px;
+  overflow-y: scroll;
+  gap: 25px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+.wc-easyorder-quote-message-item {
+  margin-right: auto;
+  position: relative;
+  margin-left: 30px;
+}
+.wc-easyorder-quote-message-item .tail-in {
+  position: absolute;
+  left: -8px;
+  top: -1px;
+}
+.wc-easyorder-quote-message-item .tail-out {
+  position: absolute;
+  left: auto;
+  top: -1px;
+  right: -8px;
+}
+.wc-easyorder-quote-message-item.customer {
+  display: grid;
+  align-items: flex-end;
+  grid-template-columns: auto auto;
+}
+.wc-easyorder-quote-message-item.vendor {
+  margin-left: auto;
+  margin-right: 30px;
+}
+.wc-easyorder-quote-avatar {
+  margin: 0 15px 0 0;
+  display: inline-flex;
+}
+.wc-easyorder-quote-avatar img {
+  border-radius: 50%;
+  max-width: 36px;
+}
+.wc-easyorder-message-body {
+  background-color: #212121;
+  color: #fff;
+  border-radius: 15px;
+  max-width: 560px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 15px 20px 18px;
+}
+.wc-easyorder-message-body.customer {
+  background-color: #f7f7f7;
+  color: #212121;
+}
+.wc-easyorder-time-meta {
+  margin: 4px 0 0;
+  text-align: right;
+  color: #ccc;
+  font-size: 12px;
+}
+.wc-easyorder-time-meta.customer {
+  grid-column: 1/3;
+}
+.wc-easyorder-quote-message-item.vendor .wc-easyorder-time-meta {
+  text-align: left;
+}
+
+/* quote action sidebar */
+@media screen and (min-width: 851px) {
+  #easyorder_quote_action {
+    margin-top: 20px;
+  }
+}
+
+#easyorder_quote_action .postbox-header {
+  padding: 10px;
+  border-bottom-color: #E6E6E6;
+}
+
+#easyorder_quote_action .postbox-header h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.wc-easyorder-quote-actions {
+  display: grid;
+  grid-gap: 20px;
+  padding: 10px 10px 20px;
+}
+
+.wc-easyorder-quote-action-input label {
+  color: #212121;
+  display: flex;
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 9.5px;
+}
+
+.wc-easyorder-quote-action-input select,
+.wc-easyorder-quote-action-input input {
+  border-color: #e6e6e6;
+  min-height: 45px;
+  width: 100%;
+  padding: 0 15px;
+  border-radius: 6px;
+}
+
+.wc-easyorder-quote-action-input select:focus,
+.wc-easyorder-quote-action-input input:focus {
+  border-color: #212121;
+  color: #212121;
+  box-shadow: 0 0 0 1px #212121;
+}
+.wc-easyorder-quote-action-input select:hover {
+  color: #212121;
+}
+.wc-easyorder-quote-action-input .deletion {
+  text-decoration: none;
+  font-size: 15px;
+}
+.wc-easyorder-quote-action-input .deletion:hover {
+  text-decoration: underline;
+}
+.wc-easyorder-quote-action-input .save_quote {
+  background-color: #212121;
+  border-color: #212121;
+  min-height: 50px;
+  width: 100%;
+  display: block;
+  font-size: 15px;
+  line-height: 22px;
+  border-radius: 6px;
+}
+.wc-easyorder-quote-action-input .save_quote:hover,
+.wc-easyorder-quote-action-input .save_quote:focus {
+  background-color: #212121;
+  border-color: #212121;
+}
+.wc-easyorder-quote-action-input .save_quote:focus {
+  box-shadow: 0 0 0 1px #fff,
+  0 0 0 3px #212121;
+}
+@media screen and (max-width: 767px) {
+  .wc-easyorder-tier-pricing {
+    display: block;
+  }
+  .wc-easyorder-tier-pricing .wc-easyorder-tier-price-title {
+    margin: 8px 0 8px 0;
+  }
+  .wc-easyorder-tier-pricing {
+    margin-right: 30px;
+    padding: 0 20px;
+  }
+  .wc-easyorder-price-tier {
+    gap: 5px;
+    grid-template-columns: 1fr;
+  }
+  .wc-easyorder-add-price-tier {
+    grid-column: 1;
+    display: block;
+  }
+  .wc-easyorder-add-price-tier button {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .wc-easyorder-tier-pricing {
+    max-width: 538px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .wc-easyorder-tier-pricing {
+    max-width: 516px;
+  }
+}
